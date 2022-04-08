@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/paddingAbout"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COVID-19"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/txtSize" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/paddingAbout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/paddingTvAbout"
+            android:text="Koronavirus je novi soj virusa, koji do sada nije bio otkriven kod ljudi. Svjetska zdravstvena organizacija ga je nazvala SARS-CoV-2, a bolest koju uzrokuje COVID-19."
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/txtSizeAbout" />
+
+        <ImageView
+            android:layout_width="@dimen/ivAboutWidth"
+            android:layout_height="@dimen/ivAboutHeight"
+            android:layout_gravity="center"
+            android:src="@drawable/covid" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="@dimen/ivAboutWidth"
+            android:layout_height="@dimen/ivAboutHeight"
+            android:layout_gravity="center"
+            android:src="@drawable/coughing_mobile"></ImageView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/paddingTvAbout"
+            android:text="Prema dostupnim informacijama, infekcija koronavirusom najčešće uzorkuje simptome poput povišene temperature, suhog kašlja, nedostatka zraka te naglog gubitka mirisa, okusa ili promjene okusa, dok se rjeđe javljaju bolovi u tijelu, glavobolja, umor te povraćanje. Mnogi zarazu poistovjećuju sa simptomima gripe ili prehlade, a kako pravovremeno prepoznati simptome, saznajte na poveznici."
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/tvAboutTextSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/simptomi"
+            android:textAlignment="center"
+            android:textColor="@color/colorCountry"
+            android:textSize="@dimen/txtSize"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tvAboutTextSize"
+            android:textAlignment="center"
+            android:padding="@dimen/paddingTvSimptomi"
+            android:textColor="@color/colorBlack"
+            android:text="Kašalj" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="@dimen/paddingTvSimptomi"
+            android:textSize="@dimen/tvAboutTextSize"
+            android:textColor="@color/colorBlack"
+            android:text="povišenu tjelesnu temperaturu"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="@dimen/paddingTvSimptomi"
+            android:textSize="@dimen/tvAboutTextSize"
+            android:textColor="@color/colorBlack"
+            android:text="Dispneju"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="@dimen/paddingTvSimptomi"
+            android:textSize="@dimen/tvAboutTextSize"
+            android:textColor="@color/colorBlack"
+            android:text="Nedostatak zraka"></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="@dimen/paddingTvSimptomi"
+            android:textSize="@dimen/tvAboutTextSize"
+            android:textColor="@color/colorBlack"
+            android:text="Nagli gubitak mirisa, okusa"></TextView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

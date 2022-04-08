@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:id="@+id/tvCountryName"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:textColor="@android:color/white"
+
+            android:textSize="@dimen/tvTotalBig">
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/paddingItemPager">
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/cvWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="@dimen/marginLeftItemPager">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/confirmed"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/txtSize"></TextView>
+
+                <TextView
+                    android:id="@+id/tvTotalConfirmed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2,797,000"
+                    android:textColor="@color/colorConfirmed"
+                    android:textSize="30sp"></TextView>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/cvWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="@dimen/marginLeftItemPager">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recovered"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/txtSize"></TextView>
+
+                <TextView
+                    android:id="@+id/tvTotalRecovered"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2,797,000"
+                    android:textColor="@android:color/holo_green_dark"
+                    android:textSize="30sp"></TextView>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="@dimen/cvWidth"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="20dp"
+            android:layout_marginLeft="@dimen/marginLeftItemPager">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/deaths"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/txtSize"></TextView>
+
+            <TextView
+                android:id="@+id/tvTotalDeaths"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2,797,000"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"></TextView>
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

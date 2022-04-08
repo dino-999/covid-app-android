@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashPaddingMain">50dp</dimen>
+    <dimen name="splashIvHeight">400dp</dimen>
+    <dimen name="splashTextSize">50sp</dimen>
+    <dimen name="navWidth">150dp</dimen>
+    <dimen name="navHeight">100dp</dimen>
+    <dimen name="navMarginTop">10dp</dimen>
+    <dimen name="ndWidth">162dp</dimen>
+    <dimen name="ndHeight">240dp</dimen>
+    <dimen name="cornerRadius">9dp</dimen>
+    <dimen name="paddingMain">10dp</dimen>
+    <dimen name="marginLeft">20dp</dimen>
+    <dimen name="tvSize">20sp</dimen>
+    <dimen name="txtSize">20sp</dimen>
+    <dimen name="ibMarginEnd">5dp</dimen>
+    <dimen name="paddingItemPager">10dp</dimen>
+    <dimen name="rvPadding">40dp</dimen>
+    <dimen name="flPadding">20dp</dimen>
+    <dimen name="paddingAbout">20dp</dimen>
+    <dimen name="paddingTvAbout">5dp</dimen>
+    <dimen name="tvAboutTextSize">15sp</dimen>
+    <dimen name="paddingTvSimptomi">5dp</dimen>
+    <dimen name="tvTotalBig">25sp</dimen>
+    <dimen name="ivCovidWidth">350dp</dimen>
+    <dimen name="ivCovidHeight">100dp</dimen>
+    <dimen name="marginLeftCards">30dp</dimen>
+    <dimen name="marginVerticalCards">10dp</dimen>
+    <dimen name="cvWidth">360dp</dimen>
+    <dimen name="ivDoctorWidth">300dp</dimen>
+    <dimen name="txtSizeAbout">15sp</dimen>
+    <dimen name="ivAboutWidth">100dp</dimen>
+    <dimen name="ivAboutHeight">100dp</dimen>
+    <dimen name="marginLeftItemPager">18dp</dimen>
+</resources>
